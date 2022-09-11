@@ -1,13 +1,17 @@
 {
   "name": "truyen",
   "private": true,
+  "homepage": "https:/hunghadev.github.io/web-demo/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "next": "12.2.5",
     "react": "18.2.0",
     "react-blur": "^1.1.1",
