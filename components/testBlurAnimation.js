@@ -24,7 +24,7 @@ export default class TestBlurAnimation extends React.Component {
     ];
     return (
       <div>
-        <div>Demo</div>
+        <div>Demo123</div>
         <div className={style.blurParennt}>
         <div className={style.imgParent}>
           <img src={myImages[0]} className={style.img} alt=""></img>
