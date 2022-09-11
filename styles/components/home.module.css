@@ -1,0 +1,16 @@
+.homeMain {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh; 
+    background: rgb(45, 123, 154);
+  }
+
+  .homeText {
+    position: relative;
+    display: block;
+    font-size: 70px;
+    margin-top: 200px;
+  }
+  

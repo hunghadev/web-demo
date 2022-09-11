@@ -1,0 +1,60 @@
+
+.blurParennt {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(225, 179, 179);
+    transition: 1s;
+}
+.blurParennt:hover {
+    filter: blur(10px);
+  }
+.imgParent {
+    margin-top: 50px;
+    margin-left: 12px;
+    width: 200px;
+    height: 200px;
+  }
+.img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 12px;
+  }
+.bView:hover {
+    filter: blur(2px);
+  }
+
+.bView {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 500px;
+    background-color: #14a684;
+    transition: 1s;
+}
+.bView:hover {
+    filter: blur(2px);
+  }
+
+.test {
+    overflow: hidden;
+    background: #a1bab4;
+}
+.dot {
+    position: relative;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #851e55;
+}
+.click {
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
