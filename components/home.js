@@ -12,7 +12,7 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className={style.homeMain}>
-        <div className={style.homeText}>Hello</div>
+        <div className={style.homeText}>Hello Home page</div>
       </div>
     );
   }
